@@ -68,10 +68,10 @@ public class BankAccount {
             destination.deposit(amount);
             return 1;
         }
-
     }
 
     public String getMaskedAccountNumber() {
+
         String hiddenNumber = Long.toString(accountNumber);
         hiddenNumber = hiddenNumber.substring(Math.max(0,hiddenNumber.length()-4), hiddenNumber.length());
         return "****" + String.format("%04d", Integer.parseInt(hiddenNumber));

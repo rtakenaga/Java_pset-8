@@ -234,38 +234,38 @@ public class ATM {
      */
     private static void populate() {
         database[0] = new BankAccount(
-            new AccountOwner(
-                "Mr",
-                "James",
-                "Stewart",
-                "jstewart@example.com",
-                5551232244L,
-                new MailingAddress(
-                    "123 Main Street",
-                    "Apartment 1A",
-                    "Scotch Plains",
-                    "NJ",
-                    "07076"
-                )
-            ),
-            1000
+                new AccountOwner(
+                        "Mr",
+                        "James",
+                        "Stewart",
+                        "jstewart@example.com",
+                        5551232244L,
+                        new MailingAddress(
+                                "123 Main Street",
+                                "Apartment 1A",
+                                "Scotch Plains",
+                                "NJ",
+                                "07076"
+                        )
+                ),
+                1000
         );
         database[1] = new BankAccount(
-            new AccountOwner(
-                "Mrs",
-                "Henrietta",
-                "Phillips",
-                "henphillips@example.com",
-                5551236688L,
-                new MailingAddress(
-                    "2467 Hemlock Road",
-                    null,
-                    "North Arlington",
-                    "Texas",
-                    "76006"
-                )
-            ),
-            2500
+                new AccountOwner(
+                        "Mrs",
+                        "Henrietta",
+                        "Phillips",
+                        "henphillips@example.com",
+                        5551236688L,
+                        new MailingAddress(
+                                "2467 Hemlock Road",
+                                null,
+                                "North Arlington",
+                                "Texas",
+                                "76006"
+                        )
+                ),
+                2500
         );
     }
 
